@@ -201,9 +201,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     dos.flush();
 
                     if(img == null){
-                        Log.w("dataNull", "imgData NULL FUCK");
+                        Log.w("dataNull", "imgData NULL ");
                     }else{
-                        Log.d("dataIn", "imgData IN FUCK");
+                        Log.d("dataIn", "imgData IN ");
                     }
 
                     Bitmap imgBitmap = null;
@@ -212,9 +212,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     savePicture(imgBitmap);
 
                     if(imgBitmap == null){
-                        Log.w("dataNull", "imgBitmap NULL FUCK");
+                        Log.w("dataNull", "imgBitmap NULL ");
                     }else{
-                        Log.d("dataIn", "imgBitmap IN FUCK");
+                        Log.d("dataIn", "imgBitmap IN ");
                     }
 
                     imgBitmap.compress(Bitmap.CompressFormat.PNG, 100, byteArray);
